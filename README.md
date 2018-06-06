@@ -1,4 +1,4 @@
-El presente proyecto es una configuración básica de Webpack para React.
+El presente proyecto es un conjunto de buenas prácticas en React
 
 ## Para levantar el servidor
 - Ejecutar desde la raiz el comando yarn serve
