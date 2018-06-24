@@ -5,9 +5,9 @@
   "main": "/public/app.js",
   "scripts": {
     "build": "webpack --colors --progress",
-    "serve": "webpack-dev-server --colors --progress",
-    "start": "npm run build && npm run serve",
-    "prod": "webpack -p"
+    "serve": "webpack-dev-server --colors --progress --mode development --open",
+    "start": "npm run build && npm run serve --open",
+    "prod": "webpack --mode production"
   },
   "author": "Juan Contreras <jcontrerasmeneses@gmail.com>",
   "license": "MIT",
@@ -19,15 +19,25 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
     "json-loader": "^0.5.7",
+    "node-sass": "^4.9.0",
     "react-hot-loader": "^4.2.0",
+    "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.10.2",
-    "webpack-cli": "^3.0.1",
+    "webpack-cli": "^3.0.3",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "prop-types": "^15.6.1",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.3.1"
   }
 }

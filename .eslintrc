@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "jsx-control-statements"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:jsx-control-statements/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-no-undef": [2, { "allowGlobals": true }]
+  }
+}
